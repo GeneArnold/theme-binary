@@ -53,7 +53,7 @@
                 <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
                 {% endfor %}
                 {% endif %}
-
+                
               </ul>
             </nav>
           </div>
@@ -262,16 +262,6 @@
                 <ul>
                   {% for tag in site.tags %}
                   <li><a href="/tag/{{ tag.name }}">#{{ tag.name }}</a></li>
-
-                  <nav class="categories">
-                    <h4>Categories</h4>
-                    <ul>
-                      <li><a href="/tag/design" class="{{ set_active('/tag/design') }}">Design</a></li>
-                      <li><a href="/tag/web" class="{{ set_active('/tag/web') }}">Web</a></li>
-                      <li><a href="/tag/ios" class="{{ set_active('/tag/ios') }}">iOS</a></li>
-                      <li><a href="/tag/android" class="{{ set_active('/tag/android') }}">Android</a></li>
-                    </ul>
-                  </nav>
                   {% endfor %}
                 </ul>
                 {% endif %}
