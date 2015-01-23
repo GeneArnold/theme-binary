@@ -28,19 +28,7 @@
     </script>
     {% endif %}
 
-    <script>
-      (function() {
-        var cx = '013047511208340317456:pz5bvpj55xm';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-            '//www.google.com/cse/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(gcse, s);
-      })();
-    </script>
-    <gcse:search></gcse:search>
+    
 
   </head>
   <body>
@@ -71,6 +59,20 @@
                 
               </ul>
             </nav>
+
+            <script>
+              (function() {
+                var cx = '013047511208340317456:pz5bvpj55xm';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//www.google.com/cse/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
           </div>
           <div class="site-content">
           {% if is_home or is_tag %}
